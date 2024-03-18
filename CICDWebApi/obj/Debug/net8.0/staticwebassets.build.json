@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6zeZyEW1mvc9k9cKax90dBeubqy405GXAITi6spYx7k=",
+  "Source": "CICDWebApi",
+  "BasePath": "_content/CICDWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
