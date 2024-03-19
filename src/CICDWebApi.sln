@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F99156C-7C06-48A7-AEF8-B1C56224757F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{37E24497-BD28-4FCA-B24C-9127EE07D232}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{07AD4EA2-B781-42E5-8DE4-D54211CDDE67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{238265FD-BFAE-4A7F-B9F1-7407DCA79981}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{EA410752-FA06-4CAF-9D4E-75B7B70AF5C0}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\dotnet.yml = ..\.github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07AD4EA2-B781-42E5-8DE4-D54211CDDE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AD4EA2-B781-42E5-8DE4-D54211CDDE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AD4EA2-B781-42E5-8DE4-D54211CDDE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AD4EA2-B781-42E5-8DE4-D54211CDDE67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37E24497-BD28-4FCA-B24C-9127EE07D232} = {8F99156C-7C06-48A7-AEF8-B1C56224757F}
+		{07AD4EA2-B781-42E5-8DE4-D54211CDDE67} = {37E24497-BD28-4FCA-B24C-9127EE07D232}
+		{EA410752-FA06-4CAF-9D4E-75B7B70AF5C0} = {238265FD-BFAE-4A7F-B9F1-7407DCA79981}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7798EE9F-1B9F-4FB0-8FD5-2DF1AAAEA201}
+	EndGlobalSection
+EndGlobal
